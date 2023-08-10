@@ -1,0 +1,35 @@
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+}
+
+header {
+    background-image: url(../images/nicole.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 50%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+main {
+    width: 50%;
+}
+
+.logoOnews{
+    width: 10%;
+}
+
+.introduction {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
