@@ -21,6 +21,65 @@ main {
     width: 50%;
 }
 
+.titleRight{
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.allAuthor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.author{
+    width: 50%;
+    padding: 1.5rem;
+}
+
+.authorName{
+    font-weight: bold;
+}
+
+.team, .work, .news{
+    padding: 0.3rem;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+.team{
+    color: white;
+    background-color: #DC5E53;
+}
+.work{
+    color: white;
+    background-color: #0766F0;
+}
+.news{
+    color: white;
+    background-color: #98DC62;
+}
+
+
+.postImg{
+    width: 10%;
+}
+
+.logoMain {
+    display: flex;
+    margin: 4rem 1rem;
+    width: 40%;
+}
+
+.logoMainTitle {
+    font-size: 20px;
+}
+
 .logoOnews{
     width: 10%;
 }
@@ -32,4 +91,10 @@ main {
 ul {
     display: flex;
     list-style: none;
+    justify-content: flex-end;
+}
+
+li a {
+    color: white;
+    margin-right: 1rem;
 }
