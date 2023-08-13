@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box
+}
+
 body {
     height: 100%;
 }
@@ -15,10 +19,18 @@ header {
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
 }
 main {
     width: 50%;
+}
+
+article div p {
+    margin-top: 1.5rem;
+}
+
+.infoPost{
+    margin-top: 1.5rem;
 }
 
 .titleRight{
@@ -30,11 +42,20 @@ main {
 .allAuthor{
     display: flex;
     flex-wrap: wrap;
+    margin-top: -.5rem;
 }
 
-.author{
+.author1, .author2, .author3, .author4{
     width: 50%;
     padding: 1.5rem;
+}
+.author1{
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+.author4 {
+    border-top: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
 }
 
 .authorName{
@@ -72,22 +93,34 @@ h2 {
 
 .logoMain {
     display: flex;
-    margin: 4rem 1rem;
+    margin: 4rem 2rem;
     width: 40%;
 }
 
-.logoMainTitle {
-    font-size: 20px;
+.logoMainTitle p {
+    font-size: 30px;
+    margin-bottom: -1rem;
+    margin-left: .5rem;
+    font-weight: bold;
 }
 
 .logoOnews{
-    width: 10%;
+    width: 35px;
+    margin-top: -1rem;
 }
 
 .introduction {
     background-color: rgba(255, 255, 255, 0.2);
+    width: 90%;
+    margin: -5rem auto 0rem auto;
+    text-align: right;
+    padding: 1rem;
 }
 
+.more {
+    text-decoration: underline;
+    font-weight: bold;
+}
 ul {
     display: flex;
     list-style: none;
