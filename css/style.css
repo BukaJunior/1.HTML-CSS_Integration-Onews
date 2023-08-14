@@ -53,9 +53,11 @@ article div p {
     border-right: 1px solid #eaeaea;
     border-bottom: 1px solid #eaeaea;
 }
-.author4 {
-    border-top: 1px solid #eaeaea;
-    border-left: 1px solid #eaeaea;
+.author2 {
+    border-bottom: 1px solid #eaeaea;
+}
+.author3 {
+    border-right: 1px solid #eaeaea;
 }
 
 .authorName{
