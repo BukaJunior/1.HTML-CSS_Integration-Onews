@@ -94,16 +94,25 @@ h2 {
 }
 
 .logoMain {
-    display: flex;
-    margin: 4rem 2rem;
-    width: 40%;
+    padding: 2rem 2rem .75rem;
 }
 
-.logoMainTitle p {
+.logoMainTitle {
     font-size: 30px;
-    margin-bottom: -1rem;
-    margin-left: .5rem;
+    width: 9rem;
+    line-height: 1;
     font-weight: bold;
+    /* margin-bottom: -1rem;
+    margin-left: .5rem;
+    font-weight: bold; */
+
+    background-image: url(../images/onews.svg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-y: 4.5px;
+    padding-left: 3rem;
+
+    
 }
 
 .logoOnews{
