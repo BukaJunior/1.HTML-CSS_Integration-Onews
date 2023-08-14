@@ -1,8 +1,8 @@
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
-body {
+html, body {
     height: 100%;
 }
 
@@ -112,11 +112,25 @@ h2 {
 }
 
 .introduction {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(116, 116, 116, 0.3);
     width: 90%;
     margin: -5rem auto 0rem auto;
     text-align: right;
     padding: 1rem;
+}
+
+.introduction h1 {
+    font-size: 30px;
+}
+
+.introductionTitle{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.introduction p {
+    margin-left: 5rem;
 }
 
 .more {
