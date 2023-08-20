@@ -29,7 +29,7 @@ article div p {
     margin-top: 1.5rem;
 }
 
-.infoPost{
+.post__meta-data{
     margin-top: 1.5rem;
 }
 
@@ -39,17 +39,22 @@ article div p {
     border-bottom: 1px solid #eaeaea;
 }
 
-.allAuthor{
+.articles{
     display: flex;
     flex-wrap: wrap;
     margin-top: -.5rem;
 }
 
-.author1, .author2, .author3, .author4{
+.post{
     width: 50%;
     padding: 1.5rem;
 }
-.author1{
+
+.articles .post{
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+/* .author1{
     border-right: 1px solid #eaeaea;
     border-bottom: 1px solid #eaeaea;
 }
@@ -58,43 +63,44 @@ article div p {
 }
 .author3 {
     border-right: 1px solid #eaeaea;
-}
+} */
 
-.authorName{
+.post__author {
     font-weight: bold;
 }
 
-.team, .work, .news{
+.post__category{
     padding: 0.3rem;
     border-radius: 5px;
     font-size: 13px;
     font-weight: bold;
 }
 
-h2 {
+
+.post__title {
     margin-top: 2rem;
 }
 
-.team{
+.post__category--team{
     color: white;
     background-color: #DC5E53;
 }
-.work{
+.post__category--work{
     color: white;
     background-color: #0766F0;
 }
-.news{
+.post__category--news{
     color: white;
     background-color: #98DC62;
 }
 
 
-.postImg{
+.post__avatar {
     width: 1.5rem;
     margin-right: .5rem;
 }
 
-time {
+.post__date {
     color: grey;
     
 }
@@ -149,7 +155,7 @@ time {
     text-shadow: 7px 6px 5px black;
 }
 
-.more {
+.post__link {
     text-decoration: underline;
     font-weight: bold;
 }
