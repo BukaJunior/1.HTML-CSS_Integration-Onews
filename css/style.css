@@ -90,7 +90,13 @@ h2 {
 
 
 .postImg{
-    width: 10%;
+    width: 1.5rem;
+    margin-right: .5rem;
+}
+
+time {
+    color: grey;
+    
 }
 
 .logoMain {
@@ -156,4 +162,5 @@ ul {
 li a {
     color: white;
     margin-right: 1rem;
+    text-decoration: none;
 }
