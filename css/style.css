@@ -10,11 +10,14 @@ html, body {
     display: flex;
 }
 
+header, main {
+    width: 50%;
+}
+
 header {
     background-image: url(../images/nicole.jpg);
     background-size: cover;
     background-position: left;
-    width: 50%;
     height: 100vh;
     color: white;
     display: flex;
@@ -22,7 +25,9 @@ header {
     justify-content: space-between;
 }
 main {
-    width: 50%;
+    overflow-y: scroll;
+    height: 100vh;
+
 }
 
 article div p {
